@@ -25,6 +25,10 @@ h1 {
     margin: 0;
 }
 
+h2{
+    margin: 0;
+}
+
 figure {
     height: 100%;
 }
@@ -34,8 +38,7 @@ figure img {
 }
 
 aside {
-    width: 100%;
-    margin: auto;
+    text-align: center;
 }
 
 main {
@@ -61,4 +64,13 @@ em {
 
 strong {
     font-weight: 800;
+}
+
+aside p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0;
 }
