@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+#titulo {
+    font-family: Lobster,sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px;
+    color: white;
+    text-shadow: black 0 0 50px;
+}
+
+.franja {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+#f1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/aretha.jpg");
+}
+
+#f1color {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255,0,255,0.30);
+    z-index: 10;
+}
+
+#f2 {
+    position: fixed;
+    left: 25%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/dionne.jpg");
+}
+
+#f2color {
+    position: fixed;
+    left: 25%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0,0,255,0.30);
+    z-index: 10;
+}
+
+#f3 {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/diana.jpg");
+}
+
+#f3color {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255,0,153,0.30);
+    z-index: 10;
+}
+
+#f4 {
+    position: fixed;
+    left: 75%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/etta.jpg");
+}
+
+#f4color {
+    position: fixed;
+    left: 75%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0,153,255,0.30);
+    z-index: 10;
+}
+
+div#f1color:hover~div#f1 {
+    height: 200%;
+    top: -50%;
+    background-position: center;
+    transition: 2s;
+}
+
+div#f2color:hover~div#f2 {
+    height: 200%;
+    top: -50%;
+    background-position: center;
+    transition: 2s;
+}
+
+div#f3color:hover~div#f3 {
+    height: 200%;
+    top: -50%;
+    background-position: center;
+    transition: 2s;
+}
+
+div#f4color:hover~div#f4 {
+    height: 200%;
+    top: -50%;
+    background-position: center;
+    transition: 2s;
+}

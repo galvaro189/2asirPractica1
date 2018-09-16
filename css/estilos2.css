@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+   background-color: #dddddd;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    max-width: 750px;
+    background-color: white;
+}
+
+.titulos {
+    width: 70%;
+    float: left;
+    font-family: Lobster, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+figure {
+    height: 100%;
+}
+
+figure img {
+    width: 25%;
+}
+
+aside {
+    width: 100%;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+h1,strong {
+    color: black;
+}
+
+p {
+    font-size: 1.2em;
+    color: grey;
+    text-align: justify;
+}
+
+em {
+    color: #507297;
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 800;
+}
